@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]">
+  <test parallel="none" name="Test(failed)">
+    <classes>
+      <class name="MyNewProjectAPI.RestAssuredTestProject.APIFour">
+        <methods>
+          <include name="APITest"/>
+        </methods>
+      </class> <!-- MyNewProjectAPI.RestAssuredTestProject.APIFour -->
+      <class name="MyNewProjectAPI.RestAssuredTestProject.APIThird">
+        <methods>
+          <include name="APITest3"/>
+        </methods>
+      </class> <!-- MyNewProjectAPI.RestAssuredTestProject.APIThird -->
+      <class name="MyNewProjectAPI.RestAssuredTestProject.APISecond">
+        <methods>
+          <include name="APITest2"/>
+        </methods>
+      </class> <!-- MyNewProjectAPI.RestAssuredTestProject.APISecond -->
+      <class name="MyNewProjectAPI.RestAssuredTestProject.twitter">
+        <methods>
+          <include name="getTweet"/>
+          <include name="postanddeleteTweet"/>
+        </methods>
+      </class> <!-- MyNewProjectAPI.RestAssuredTestProject.twitter -->
+      <class name="MyNewProjectAPI.RestAssuredTestProject.APIFirst">
+        <methods>
+          <include name="APITest"/>
+        </methods>
+      </class> <!-- MyNewProjectAPI.RestAssuredTestProject.APIFirst -->
+      <class name="MyNewProjectAPI.RestAssuredTestProject.APIFive">
+        <methods>
+          <include name="APITest5"/>
+          <include name="getData"/>
+        </methods>
+      </class> <!-- MyNewProjectAPI.RestAssuredTestProject.APIFive -->
+      <class name="MyNewProjectAPI.RestAssuredTestProject.APISix">
+        <methods>
+          <include name="APITest5"/>
+        </methods>
+      </class> <!-- MyNewProjectAPI.RestAssuredTestProject.APISix -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

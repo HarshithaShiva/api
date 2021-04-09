@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-31T10:00:01Z" name="Default suite" finished-at="2021-03-31T10:00:08Z" duration-ms="7388">
+    <groups>
+    </groups>
+    <test started-at="2021-03-31T10:00:01Z" name="Default test" finished-at="2021-03-31T10:00:08Z" duration-ms="7388">
+      <class name="APIFive">
+        <test-method is-config="true" signature="getData()[pri:0, instance:APIFive@73302995]" started-at="2021-03-31T10:00:01Z" name="getData" finished-at="2021-03-31T10:00:01Z" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData -->
+        <test-method signature="APITest5(java.lang.String, java.lang.String)[pri:0, instance:APIFive@73302995]" started-at="2021-03-31T10:00:01Z" name="APITest5" data-provider="NameData" finished-at="2021-03-31T10:00:07Z" duration-ms="6442" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Harshy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[XO]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APITest5 -->
+        <test-method signature="APITest5(java.lang.String, java.lang.String)[pri:0, instance:APIFive@73302995]" started-at="2021-03-31T10:00:07Z" name="APITest5" data-provider="NameData" finished-at="2021-03-31T10:00:08Z" duration-ms="893" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dhihf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APITest5 -->
+      </class> <!-- APIFive -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
